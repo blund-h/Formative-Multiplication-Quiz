@@ -1,18 +1,18 @@
 # Formative-Multiplication-Quiz
 ## Description
 A simple python quiz app which runs in the terminal that allows you to test your times tables skills with randomly generated questions. The test allows you to pick from three difficulties
-##User Documentation
+## User Documentation
 The multiplication quiz is a 5 question randomly generated quiz to help you develop your multiplication skills. To support your learning, if you incorrectly answer a question, the correct answer will be displayed before moving on to the next question.
-###1.	Start / Run the Quiz
+### 1.	Start / Run the Quiz
 Once the program is started you will see a welcome message introducing the quiz
-###2.	Choose a difficulty
+### 2.	Choose a difficulty
 You will be asked to select one of the following:
 <img width="602" height="101" alt="Picture1" src="https://github.com/user-attachments/assets/e95f1de7-a809-4f27-b0a9-eb39caaabae8" />
 
 The numbers in brackets eg (1-5) shows the smallest and largest times tables you may be tested on.
 
 Please type 1, 2 or 3 to match the corresponding difficulty and click enter. You will not be able to continue the quiz without entering one of these values.
-###3.	Answer the Questions
+### 3.	Answer the Questions
 The quiz includes 5 multiplication questions for you to answer.
 For each question:
 •	Type only your answer
@@ -22,12 +22,12 @@ If your answer is incorrect the correct answer will be displayed before the next
 Please ensure to type only numbers for your answers. Any other input will prompt a warning message, and the question will be skipped earning you no point towards your final score.
 <img width="602" height="104" alt="Picture2" src="https://github.com/user-attachments/assets/a115fb20-3c93-4eee-bd38-40fb47d45604" />
 
-###4.	View your Score
+### 4.	View your Score
 Once you have answered all 5 questions the quiz is finished and your final score will be displayed.
 
-##Technical Documentation
-###How to run the Program
-####Clone the Repo
+## Technical Documentation
+### How to run the Program
+#### Clone the Repo
 To start working with the app you can clone the GitHub repository which involves taking a local copy for your computer to view, edit and run the project.
 
 To download the GitHub repository, you can use command-line instructions in the terminal using the code below.
@@ -50,7 +50,7 @@ difficulty_dict = {1: {"level": "Easy", "max": 5},2: {"level": "Medium", "max": 
 
 The max value controls how big the multiplications numbers can be generated in the questions.
 
-##Functions
+## Functions
 difficulty_selection()
 •	Displays difficulty options
 •	Asks for user input
