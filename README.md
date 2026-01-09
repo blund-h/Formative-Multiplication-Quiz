@@ -1,5 +1,5 @@
 # Formative-Multiplication-Quiz
-##Description
+## Description
 A simple python quiz app which runs in the terminal that allows you to test your times tables skills with randomly generated questions. The test allows you to pick from three difficulties
 ##User Documentation
 The multiplication quiz is a 5 question randomly generated quiz to help you develop your multiplication skills. To support your learning, if you incorrectly answer a question, the correct answer will be displayed before moving on to the next question.
